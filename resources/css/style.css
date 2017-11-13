@@ -1,0 +1,36 @@
+#cs_facebooklogin
+{   
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #4B6CC9;
+    cursor: pointer;
+    margin: 10px 0px -6px 0px;
+    position: relative;
+    color: #fff;
+    padding: 1px 15px;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 40px;
+}
+#cs_facebooklogin::before
+{
+    content: "\f09a";
+    font-family: FontAwesome;
+    float: right;
+    line-height: 40px;
+    margin-top: -1px;
+    padding-left: 18px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #425398;
+    width: 45px;
+    margin-right: -15px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+
+
+
